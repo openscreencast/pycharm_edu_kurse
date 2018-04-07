@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list>
+              <StepicUser>
+                <option name="accessToken" value="" />
+                <option name="firstName" value="heiko" />
+                <option name="guest" value="false" />
+                <option name="id" value="-1" />
+                <option name="lastName" value="" />
+                <option name="refreshToken" value="" />
+              </StepicUser>
+            </list>
+          </option>
+          <option name="courseMode" value="Course Creator" />
+          <option name="courseType" value="PyCharm" />
+          <option name="description" value="Programmiereinführung mit Python" />
+          <option name="language" value="Python" />
+          <option name="languageCode" value="en" />
+          <option name="lessons">
+            <list>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Erste Schritte" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Was du brauchst" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="### Was du brauchst&#10;&#10;* Python&#10;* einen Quelltext-Editor&#10;&#10;Falls Du Python noch nicht installiert&#10;hast, findest Du die jüngsten offiziellen&#10;Installationspakete hier:&#10;&#10;http://python.org/download/&#10;&#10;Python 3 ist zu bevorzugen,&#10;da es die neueste verfügbare Version ist!&#10;&#10;Ein Quelltext-Editor erlaubt das&#10;Lesen und Schreiben von Programmen.&#10;Um anzufangen benötgist du nur einen&#10;simplen, einfach zu benutzenden Editor&#10;der dir nicht in die Quere kommt, aber&#10;immer noch effektiv beim Schreiben vom&#10;Pythonquelltext ist.&#10;&#10;Hier sind ein paar Vorschläge:&#10;&#10;* [Pycharm Edu](https://www.jetbrains.com/pycharm-edu/)&#10;* [Sublime Text](https://www.sublimetext.com/)&#10;* [Geany](https://www.geany.org/)&#10;* [TextMate](https://macromates.com/)&#10;* [Gedit](https://wiki.gnome.org/Apps/Gedit) und [Kate](https://kate-editor.org/)&#10;* [Komodo Edit](https://www.activestate.com/komodo-edit)&#10;* [Atom](https://atom.io/)&#10;&#10;Stelle Dich nun erstmal vor.&#10;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="52" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Gib Deinen Namen ein." />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="hier steht Dein Name" />
+                                                <option name="possibleAnswer" value="Tim" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Solved" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Was ist Python eigentlich" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="### Was ist Python eigentlich ?&#10;&#10;Also, Python ist etwas, das&#10;`Programmiersprache` genannt wird.&#10;Es liest Text ein den Du geschrieben hast&#10;(üblicherweise als Code bezeichnet),&#10;verwandelt ihn in Befehle für den&#10;Computer und führt diese aus.&#10;Wir werden lernen Code zu schreiben,&#10;der coole und nützliche Dinge tut.&#10;Du wirst nicht länger daran gebunden sein,&#10;Programme von anderen Leuten zu&#10;verwenden um mit Deinem Computer&#10;Dinge zu tun.&#10;&#10;Python ist praktisch einfach ein&#10;weiteres Programm auf Deinem Computer.&#10;Zuerst werden wir lernen Python zu&#10;benutzen und mit ihm zu interagieren.&#10;Es gibt mehrere Wege das zu tun;&#10;der erste ist mit dem Python&#10;Interpreter über die Textkonsole&#10;Deines Betriebssystems zu interagieren.&#10;&#10;Was ist Python ?&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="21" />
+                                      <option name="offset" value="54" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Python ist eine Progr..." />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="Antwort hier eingeben" />
+                                                <option name="possibleAnswer" value="Programmiersprache" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Solved" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Python verwenden" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="### Python verwenden&#10;&#10;Das Pythonprogramm das du installiert&#10;hast agiert standardmäßig als etwas&#10;das sich Interpreter nennt.&#10;Ein Interpreter nimmt Befehle entgegen&#10;und führt sie dann aus.&#10;&#10;Tippe in eine Konsole&#10;(Terminal des Betriebssystems) `python` ein,&#10;drücke Enter und der Python-Interpreter&#10;sollte starten.&#10;&#10;Der Prompt &gt;&gt;&gt; in der letzten Zeile&#10;signalisiert dass Du Dich nun in der&#10;interaktiven Python Konsole befindet,&#10;auch ‘’Python Shell’’ genannt.&#10;Nun kannst Du Python Code eingeben.&#10;Versuche: `print(&quot;Hello world&quot;)`&#10;Drücke `Enter` und schau was passiert.&#10;&#10;Um die Python Shell zuverlassen,&#10;drücke `Strg-Z` und Enter unter Windows,&#10;oder `Strg-D` unter OS X oder Linux.&#10;Alternativ kannst Du auch den&#10;Python-Befehl `exit()` ausführen.&#10;&#10;Falls du viel Pythonquelltext&#10;auszuführen hast wirst du ihn in eine&#10;Datei speichern wollen damit du zum&#10;Beispiel kleine Stücke verändern&#10;kannst (einen Fehler beheben) und es&#10;nochmal ausführen kannst ohne den Rest&#10;wieder und wieder einzutippen.&#10;Stattdessen kannst du deinen Quelltext&#10;in eine Datei speichern und den&#10;Dateinamen an das python-Programm&#10;liefern. Es wird dann diese Datei&#10;ausführen statt den interaktiven&#10;Interpreter auszuführen.&#10;&#10;Lass uns das ausprobieren.&#10;Erstelle eine Datei `hallo.py` in deinem&#10;aktuellen Verzeichnis mit deinem&#10;Lieblingseditor und schreib den&#10;print-Befehl von oben. Jetzt speicher&#10;die Datei. Diese Datei mit Python&#10;auszuführen ist ganz einfach:&#10;&#10;$ `python hallo.py`&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="42" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="py...." />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="befehl" />
+                                                <option name="possibleAnswer" value="python" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Solved" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Einfaches Zeichnen mit turtle" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Einführung" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="taskTexts">
+                        <map>
+                          <entry key="task" value="### Einfaches Zeichnen mit turtle - Einführung&#10;&#10;Wir sind jetzt startklar und&#10;können mit der Schildkröte anfangen!&#10;" />
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </EduTask>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+          <option name="name" value="Programmiereinführung mit Python" />
+        </Course>
+      </option>
+      <option name="toolWindowMode" value="TEXT" />
+      <option name="turnEditingMode" value="false" />
+      <option name="VERSION" value="8" />
+      <option name="myUserTests">
+        <map />
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
